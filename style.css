@@ -1,0 +1,20 @@
+body{
+    background-color:white;
+    background-image: linear-gradient(90deg, rgba(200,0,0,0.5) 50%, transparent 50%),
+    linear-gradient(rgba(200,0,0,.5) 50%, transparent 50%);
+    background-size:50px 50px;
+}
+.circle {
+    background-color: beige;
+    width: 800px;
+    border-radius: 30px;
+    margin: 50px auto;
+    padding: 5px 10px;
+    -webkit-box-shadow: 0px 0px 40px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 40px 1px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 40px 1px rgba(0,0,0,0.75);
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+.article-header {
+    text-align: center;
+}
