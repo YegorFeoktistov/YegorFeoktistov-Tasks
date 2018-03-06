@@ -4,7 +4,7 @@ body{
     linear-gradient(rgba(200,0,0,.5) 50%, transparent 50%);
     background-size:50px 50px;
 }
-.circle {
+article {
     background-color: beige;
     width: 800px;
     border-radius: 30px;
