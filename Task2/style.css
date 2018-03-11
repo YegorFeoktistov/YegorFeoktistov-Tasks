@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:white;
+    background-image: linear-gradient(90deg, rgba(200,0,0,0.5) 50%, transparent 50%),
+    linear-gradient(rgba(200,0,0,.5) 50%, transparent 50%);
+    background-size:50px 50px;
+}
+
+.basic-decor {
+    padding: 5px 10px;
+    background-color: beige;
+    border-radius: 20px;
+    -webkit-box-shadow: 0px 0px 40px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 40px 1px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 40px 1px rgba(0,0,0,0.75);
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+article {
+    width: 800px;
+    margin: 50px auto;
+}
+
+.article-header {
+    text-align: center;
+}
+
+nav {
+    margin: 0 auto;
+    width: 800px;
+    height: 50px;
+}
+
+nav a {
+    color: black;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.nav-element {
+    float: left;
+    height: 100%;
+    width: 200px;
+    text-align: center;
+    line-height: 32pt;
+    font-size: 14pt;
+}
+
+section {
+    width: 800px;
+    margin: 10px auto;
+}
+
+li {
+    list-style-type: none;
+}
+
+.topic-link-element {
+    float: left;
+    height: 100%;
+    width: 160px;
+    text-align: center;
+    line-height: 32pt;
+    font-size: 14pt;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 1000px;
+    border-radius: 20px;
+    background-color: rgba(240, 248, 255, 0);
+    -webkit-box-shadow: inset 0px 0px 40px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: inset 0px 0px 40px 1px rgba(0,0,0,0.75);
+    box-shadow: inset 0px 0px 40px 1px rgba(0,0,0,0.75);
+}
