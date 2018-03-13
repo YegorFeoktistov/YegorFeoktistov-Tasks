@@ -11,6 +11,17 @@ body{
     background-size:50px 50px;
 }
 
+.wrapper {
+    margin: 0 auto;
+    width: 1000px;
+    height: 100%;
+    border-radius: 20px;
+    background-color: rgba(240, 248, 255, 0);
+    -webkit-box-shadow: inset 0px 0px 40px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: inset 0px 0px 40px 1px rgba(0,0,0,0.75);
+    box-shadow: inset 0px 0px 40px 1px rgba(0,0,0,0.75);
+}
+
 .basic-decor {
     padding: 5px 10px;
     background-color: beige;
@@ -19,6 +30,10 @@ body{
     -moz-box-shadow: 0px 0px 40px 1px rgba(0,0,0,0.75);
     box-shadow: 0px 0px 40px 1px rgba(0,0,0,0.75);
     font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+a:link {
+    color: black;
 }
 
 article {
@@ -73,12 +88,10 @@ li {
     font-size: 14pt;
 }
 
-.wrapper {
-    margin: 0 auto;
-    width: 1000px;
-    border-radius: 20px;
-    background-color: rgba(240, 248, 255, 0);
-    -webkit-box-shadow: inset 0px 0px 40px 1px rgba(0,0,0,0.75);
-    -moz-box-shadow: inset 0px 0px 40px 1px rgba(0,0,0,0.75);
-    box-shadow: inset 0px 0px 40px 1px rgba(0,0,0,0.75);
+.nav-element:hover,.topic-link-element:hover {
+    color: #dd1616;
+}
+
+.nav-element:active,.topic-link-element:active {
+    color: #8d1e1e;
 }
