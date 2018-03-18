@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:white;
+    background-image: linear-gradient(90deg, rgba(200,0,0,0.5) 50%, transparent 50%),
+    linear-gradient(rgba(200,0,0,.5) 50%, transparent 50%);
+    background-size:50px 50px;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 1000px;
+    height: 100%;
+    border-radius: 20px;
+    background-color: rgba(240, 248, 255, 0);
+    -webkit-box-shadow: inset 0px 0px 40px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: inset 0px 0px 40px 1px rgba(0,0,0,0.75);
+    box-shadow: inset 0px 0px 40px 1px rgba(0,0,0,0.75);
+}
+
+.basic-decor {
+    padding: 5px 10px;
+    background-color: beige;
+    border-radius: 20px;
+    -webkit-box-shadow: 0px 0px 40px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 40px 1px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 40px 1px rgba(0,0,0,0.75);
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+a:link {
+    color: black;
+}
+
+article {
+    width: 800px;
+    margin: 50px auto;
+}
+
+.article-header {
+    text-align: center;
+}
+
+nav {
+    margin: 0 auto;
+    width: 800px;
+    height: 50px;
+}
+
+nav a {
+    color: black;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.nav-element {
+    float: left;
+    height: 100%;
+    width: 200px;
+    text-align: center;
+    line-height: 32pt;
+    font-size: 14pt;
+}
+
+.nav-element:hover,.topic-link-element:hover {
+    color: #dd1616;
+}
+
+.nav-element:active,.topic-link-element:active {
+    color: #8d1e1e;
+}
+
+ul {
+    list-style-image: url("image/gachiList.png");    
+    padding: 0;
+    font-size: 14pt;
+    display: table;
+    margin: 20px auto;
+}
+
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    border-spacing: 0;
+    border: 0;
+}
+
+.list-container {
+    margin: 0 auto;
+}
