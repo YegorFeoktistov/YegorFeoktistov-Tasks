@@ -1,0 +1,241 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: "Mistral";
+    src: url("../Fonts/Mistral.ttf") format("truetype");
+}
+
+.t6-main-page__header {
+    position: relative;
+    margin: 0 auto;
+    width: 1200px;
+    height: 253px;                    
+}
+
+.header {
+    height: 100%;
+    display: -webkit-flex; 
+    display: flex;
+    overflow: hidden;
+    background-color: #f4f4f2;
+}
+
+.header__icon-container1 {    
+    height: 100%;
+    width: 107px;
+    margin-left: 16px;
+    margin-top: 6px;
+    display: -webkit-flex; 
+    display: flex;
+    flex-wrap: wrap;
+    transform: rotate(-5deg);
+}
+
+.header__icon-container2 {
+    height: 100%;
+    width: 973px;
+    margin-top: -65px;
+    display: -webkit-flex; 
+    display: flex;
+    flex-wrap: wrap;
+    transform: rotate(-5deg);
+}
+
+.header__icon-container3 {
+    height: 100%;
+    width: 115px;
+    margin-top: -26px;
+    display: -webkit-flex; 
+    display: flex;
+    flex-wrap: wrap;
+    transform: rotate(-5deg);
+}
+
+.header__icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 23px;
+    margin-bottom: 23px;
+    border-radius: 5px;
+    background-size: 330px 90px;
+    background-image: url("../Image/spice-social-gadget-sprite.png")
+}
+
+.header__icon_facebook {
+    background-position: 0 -30px;
+}
+
+.header__icon_flickr {
+    background-position: -30px -30px;
+}
+
+.header__icon_dribbble {
+    background-position: -60px -30px;
+}
+
+.header__icon_google-plus {
+    background-position: -90px -30px;
+}
+
+.header__icon_linkedIn {
+    background-position: -120px -30px;
+}
+
+.header__icon_pinterest {
+    background-position: -150px -30px;
+}
+
+.header__icon_rss {
+    background-position: -180px -30px;
+}
+
+.header__icon_skype {
+    background-position: -210px -30px;
+}
+
+.header__icon_twitter {
+    background-position: -240px -30px;
+}
+
+.header__icon_vimeo {
+    background-position: -270px -30px;
+}
+
+.header__icon_youtube {
+    background-position: -300px -30px;
+}
+
+.header__logo {    
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0; 
+    top: 0;
+    width: 376px;
+    height: 92px;                
+    margin: auto;
+    box-shadow: 0 2px 0px #cccccc;
+}
+
+.logo {
+    font-family: Mistral;
+    font-size: 51px;
+    text-align: center;
+    line-height: 92px;
+    outline: 3px solid black;
+    outline-offset: -8px;
+    background-color: white;
+    opacity: 0.96; 
+}
+
+.logo__text {
+    background-image: url("../Image/scobs.jpg");
+    background-size: 100%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.t6-main-page__light-section {
+    width: 1146px;
+    height: 114px;
+    margin: 0 auto;
+    margin-top: 8px;
+    padding: 23px 0 10px 30px;
+    border: 2px solid #f2f2f2;
+    background-color: white;
+}
+
+.t6-main-page__dark-section {
+    width: 1146px;
+    height: 116px;
+    background-color: #333333;
+    border: 2px solid #010101;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding: 23px 0 0 30px;
+}
+
+.section__line {
+    margin-bottom: 11px;
+}
+
+.section__button_large {
+    width: 140px;
+    height: 33px;
+    font-size: 20px;
+}
+
+.section__button_average {
+    width: 79px;
+    height: 20px;
+    font-size: 9px;
+}
+
+.section__button_small {
+    width: 66px;
+    height: 15px;
+    font-size: 8px;
+}
+
+.section__button {
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;   
+    cursor: pointer;
+    box-shadow: 0 1.5px 3px #242524;
+}
+
+.section__button_pink {
+    background: linear-gradient(to bottom, #e955ab 0%,#e82497 100%);
+}
+
+.section__button_green {
+    background: linear-gradient(to bottom, #a5c934 0%,#9eca18 100%);
+}
+
+.section__button_blue {
+    background: linear-gradient(to bottom, #408ee8 0%,#4391e9 100%);
+}
+
+.section__button_red {
+    background: linear-gradient(to bottom, #eb5353 0%,#ea4141 100%);
+}
+
+.section__button_orange {
+    background: linear-gradient(to bottom, #ff803a 0%,#ff6a13 100%);
+}
+
+.section__button_yellow {
+    background: linear-gradient(to bottom, #ffc547 0%,#ffbd26 100%);
+}
+
+.section__button_pink:hover {
+    background: linear-gradient(to top, #e955ab 0%,#e82497 100%);
+}
+
+.section__button_green:hover {
+    background: linear-gradient(to top, #a5c934 0%,#9eca18 100%);
+}
+
+.section__button_blue:hover {
+    background: linear-gradient(to top, #408ee8 0%,#4391e9 100%);
+}
+
+.section__button_red:hover {
+    background: linear-gradient(to top, #eb5353 0%,#ea4141 100%);
+}
+
+.section__button_orange:hover {
+    background: linear-gradient(to top, #ff803a 0%,#ff6a13 100%);
+}
+
+.section__button_yellow:hover {
+    background: linear-gradient(to top, #ffc547 0%,#ffbd26 100%);
+}
