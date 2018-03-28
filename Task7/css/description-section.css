@@ -1,0 +1,115 @@
+.description {
+    color: #91948d;
+    background-color: #fff;
+}
+
+.description__container {
+    padding: 3% 3% 3% 3%;
+}
+
+.description__header {
+    margin-bottom: 22px;    
+    color: black;
+}
+
+.description__text-1 {
+    margin-bottom: 38px;
+    color: #e2be8e;
+}
+
+.description__text-2 {
+    margin-bottom: 10px;
+    line-height: 28px;
+}
+
+.description__text-3 {
+    line-height: 28px;
+}
+
+.image-2 {
+    height: 100%;
+    background: url("../images/1.jpg");    
+    background-position: top;
+}
+
+@media (max-width: 1200px) {
+    .image-2 {
+        height: auto;
+        background: url("../images/1.jpg");    
+        background-position: top;
+    }
+}
+
+@media (max-width: 720px) {
+    .image-2 {
+        height: 300px;        
+        background: url("../images/1.jpg");    
+        background-position: top;
+    }
+}
+
+.my-skills {
+    background-color: #e4ae58;
+    color: #fff;
+}
+
+.my-skills__container {
+    padding: 10% 10% 10% 10%;
+}
+
+.my-skills__header {
+    margin-bottom: 22px;
+}
+
+.my-skills__text {
+    margin-bottom: 38px;
+}
+
+.my-skills__skill-block {
+    margin-bottom: 25px;
+}
+
+.my-skills__skill-block:last-child {
+    margin-bottom: 0;
+}
+
+.skill-block__text-row {
+    display: flex;
+    margin-bottom: 12px;
+}
+
+.skill-block_display-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skill-block__skill-name {
+    width: 90%;
+    font-family: 'Source Sans Pro Bold', sans-serif;
+    color: #000;    
+    font-size: 15px;
+}
+
+.skill-block__progress-percent {
+    width: 10%;
+    font-family: 'Source Sans Pro Bold', sans-serif;
+    color: #fff;    
+    font-size: 15px;
+    text-align: right;
+}
+
+.skill-block__progress-bar {
+    display: flex;
+    width: 100%;
+    height: 2px;    
+}
+
+.skill-block__bar-complited {
+    height: 100%;
+    background-color: #000;
+}
+
+.skill-block__bar-empty {
+    height: 100%;
+    background-color: #fff;
+}
