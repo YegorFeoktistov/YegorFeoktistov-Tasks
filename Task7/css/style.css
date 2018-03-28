@@ -1,0 +1,125 @@
+html, body {
+    height: 100%;
+}
+
+.t7-main {
+    font-family: 'Source Sans Pro Regular', sans-serif;
+}
+
+.t7-main__wrapper {
+    width: 100%;
+    height: 100%;  
+}
+
+.t7-main__get-started {
+    height: 819px;
+}
+
+.image-1 {
+    height: 100%;
+    background: url("../images/5.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.get-started {
+    color: #a79a92;
+    background-color: #f0e2d7;
+}
+
+.get-started_display-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.get-started__container {
+    padding: 0 2% 0 2%;
+}
+
+.get-started__text-1 {
+    margin-bottom: 24px;
+    font-family: 'Source Sans Pro SemiBold', sans-serif;
+    font-size: 12px;
+    letter-spacing: 0.15em;
+}
+
+.get-started__header {
+    margin-bottom: 24px;
+    font-family: 'Source Sans Pro Light', sans-serif;
+    font-size: 42px;
+    color: black;
+}
+
+.get-started__header span {
+    font-family: 'Source Sans Pro Regular', sans-serif;
+}
+
+.get-started__text-2 {
+    margin-bottom: 50px;
+    line-height: 28px;
+}
+
+.get-started__button {
+    width: 172px;
+    height: 42px;
+    border: 3px solid black;
+    border-radius: 50px;
+}
+
+.button {
+    width: 100%;
+    height: 100%;
+    background: none;
+    border: none;
+}
+
+.button__container {    
+    display: flex;
+    justify-content: center;
+    align-content: center;    
+}
+
+.button__text {
+    font-family: 'Source Sans Pro Bold', sans-serif;
+    letter-spacing: 0.1em;
+}
+
+.t7-main__description {
+    height: 344px;
+}
+
+.description {
+    color: #91948d;
+    background-color: #fff;
+}
+
+.description_display-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.description__container {
+    padding: 0 2% 0 2%;
+}
+
+.description__header {
+    margin-bottom: 22px;
+    font-family: 'Source Sans Pro Light', sans-serif;
+    font-size: 42px;
+    color: black;
+}
+
+.description__text-1 {
+    margin-bottom: 38px;
+    color: #e2be8e;
+    font-size: 16px;
+}
+
+.description__text-2 {
+    margin-bottom: 10px;
+    line-height: 28px;
+}
+.description__text-3 {
+    line-height: 28px;
+}

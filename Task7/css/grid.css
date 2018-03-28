@@ -1,0 +1,19 @@
+.row {
+    display: flex;
+    width: 100%;
+}
+
+.col-100 {
+    width: 100%;
+    height: 100%;
+}
+
+.col-50 {
+    width: 50%;
+    height: 100%;
+}
+
+.col-25 {
+    width: 25%;
+    height: 100%;
+}
