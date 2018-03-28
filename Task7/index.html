@@ -32,92 +32,102 @@
                 </header>
             </div>
 -->
-            <section class="t7-main__get-started row">
-                <div class="image-1 col-50"></div>                
-                <div class="get-started get-started_display-flex col-50">
+            <section class="t7-main__get-started grid-row">
+                <div class="image-1 grid-row__col-m"></div>                
+                <div class="get-started t7-main_display-flex grid-row__col-m">
                     <div class="get-started__container">
-                        <div class="get-started__text-1">WELCOME TO MY WEBSITE</div>
-                        <div class="get-started__header">Hello, I am <span>Stimulus</span> currently based in New York city.</div>
-                        <div class="get-started__text-2">Donec auctor arcu at efficitur lacinia. Praesent bibendum efficitur ipsum, et mattis tellus interdum in. Ut a dictum purus. Vestibulum nin pellentesque felis, sed dignissim urna. Vestibulum id accumsan quam.</div>
+                        <div class="get-started__text-1">Welcome to my website</div>
+                        <div class="get-started__header t7-main_defaul-header-style">Hello, I am <span>Stimulus</span> currently based in New York city.</div>
+                        <div class="get-started__text-2 t7-main_defaul-text-style">Donec auctor arcu at efficitur lacinia. Praesent bibendum efficitur ipsum, et mattis tellus interdum in. Ut a dictum purus. Vestibulum nin pellentesque felis, sed dignissim urna. Vestibulum id accumsan quam.</div>
                         <div class="get-started__button">
-                            <button class="button">
-                                <div class="button__container">
-                                    <span class="button__text">GET STARTED</span>
-                                </div>
-                            </button>
+                            <a href="#description-section">
+                                <button class="button button_black-style">
+                                    <div class="button__container">
+                                        <span class="button__text">Get Started</span>
+                                    </div>
+                                </button>
+                            </a>
                         </div>
                     </div>                    
                 </div>
             </section>
-            <section class="t7-main__description row">
-                <div class="description description_display-flex col-50">
+            <section id="description-section" class="t7-main__description grid-row">
+                <div class="description t7-main_display-flex grid-row__col-m">
                     <div class="description__container">
-                        <div class="description__header">Donec auctor</div>
-                        <div class="description__text-1">Sed vulputate vitae diam quis bibendum</div>
-                        <div class="description__text-2">Phasellus vulputate tellus nec tortor varius elementum. Curabitur at pulvinar ante. Duis dui urna, faucibus eget felis eu, iaculis congue sem. Mauris convallis eros massa.
+                        <div class="description__header t7-main_defaul-header-style">Donec auctor</div>
+                        <div class="description__text-1 t7-main_defaul-text-style">Sed vulputate vitae diam quis bibendum</div>
+                        <div class="description__text-2 t7-main_defaul-text-style">Phasellus vulputate tellus nec tortor varius elementum. Curabitur at pulvinar ante. Duis dui urna, faucibus eget felis eu, iaculis congue sem. Mauris convallis eros massa.
                         </div>
-                        <div class="description__text-3">Quisque viverra iaculis aliquam. Etiam volutpat, justo non aliquam bibendum, sem nibh mollis erat, quis porta odio odio at velit.</div>
+                        <div class="description__text-3 t7-main_defaul-text-style">Quisque viverra iaculis aliquam. Etiam volutpat, justo non aliquam bibendum, sem nibh mollis erat, quis porta odio odio at velit.</div>
                     </div>                    
                 </div>
-                <div class="image-2 col-25"></div>
-                <div class="my-skills col-25">
-                    <div class="my-skills__header">My skills</div>
-                    <div class="my-skills__text">Photoshop. HTML CSS JS. Web Design</div>
-                    <div class="my-skills__skill-block">
-                        <div class="skill-block">
-                            <div class="skill-block__skill-name">Frontend Design</div>
-                            <div class="skill-block__progress-percent">90%</div>
-                            <div class="skill-block__progress-bar">
-                                <div class="skill-block__bar-complited"></div>
-                                <div class="skill-block__bar-empty"></div>
+                <div class="image-2 grid-row__col-s"></div>
+                <div class="my-skills t7-main_display-flex grid-row__col-s">
+                    <div class="my-skills__container">
+                        <div class="my-skills__header t7-main_defaul-header-style">My Skills</div>
+                        <div class="my-skills__text t7-main_defaul-text-style">Photoshop. HTML CSS JS. Web Design</div>
+                        <div class="my-skills__skill-block">
+                            <div class="skill-block">
+                                <div class="skill-block__text-row">
+                                    <div class="skill-block__skill-name">Frontend Design</div>
+                                    <div class="skill-block__progress-percent">90%</div>
+                                </div>                                
+                                <div class="skill-block__progress-bar">
+                                    <div style="width: 90%;" class="skill-block__bar-complited"></div>
+                                    <div style="width: 10%;" class="skill-block__bar-empty"></div>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="my-skills__skill-block">
-                        <div class="skill-block">
-                            <div class="skill-block__skill-name">Backend processing</div>
-                            <div class="skill-block__progress-percent">70%</div>
-                            <div class="skill-block__progress-bar">
-                                <div class="skill-block__bar-complited"></div>
-                                <div class="skill-block__bar-empty"></div>
+                        <div class="my-skills__skill-block">
+                            <div class="skill-block">
+                                <div class="skill-block__text-row">
+                                    <div class="skill-block__skill-name">Backend processing</div>
+                                    <div class="skill-block__progress-percent">70%</div>
+                                </div>               
+                                <div class="skill-block__progress-bar">
+                                    <div style="width: 70%;" class="skill-block__bar-complited"></div>
+                                    <div style="width: 30%;" class="skill-block__bar-empty"></div>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="my-skills__skill-block">
-                        <div class="skill-block">
-                            <div class="skill-block__skill-name">HTML5 &amp; CSS3</div>
-                            <div class="skill-block__progress-percent">80%</div>
-                            <div class="skill-block__progress-bar">
-                                <div class="skill-block__bar-complited"></div>
-                                <div class="skill-block__bar-empty"></div>
+                        <div class="my-skills__skill-block">
+                            <div class="skill-block">
+                                <div class="skill-block__text-row">               
+                                    <div class="skill-block__skill-name">HTML5 &amp; CSS3</div>
+                                    <div class="skill-block__progress-percent">80%</div>
+                                </div>
+                                <div class="skill-block__progress-bar">
+                                    <div style="width: 80%;" class="skill-block__bar-complited"></div>
+                                    <div style="width: 20%;" class="skill-block__bar-empty"></div>
+                                </div>
                             </div>
                         </div>
-                    </div>
+                    </div>                    
                 </div>
             </section>
-            <section class="t7-main__features row">
-                <div class="feature col-25">
+            <section class="t7-main__features grid-row">
+                <div class="feature grid-row__col-s">
                     <div class="feature__icon">
                         <div class="icon">*ICON*</div>
                     </div>
                     <div class="feature__header">Interface Design</div>
                     <div class="feature__text">Phasellus vulputate tellus nec tortor varius elementum. Curabitur at pulvinar ante.</div>
                 </div>
-                <div class="feature col-25">
+                <div class="feature grid-row__col-s">
                     <div class="feature__icon">
                         <div class="icon">*ICON*</div>
                     </div>
                     <div class="feature__header">Media Strategy</div>
                     <div class="feature__text">Curabitur at pulvinar ante. Duis dui urna, faucibus eget felis eu, iaculis congue sem.</div>
                 </div>
-                <div class="feature col-25">
+                <div class="feature grid-row__col-s">
                     <div class="feature__icon">
                         <div class="icon">*ICON*</div>
                     </div>
                     <div class="feature__header">Mobile App</div>
                     <div class="feature__text">Mauris convallis eros massa, vitae euismod arcu tempus ut. Quisque viverra iaculis.</div>
                 </div>
-                <div class="feature col-25">
+                <div class="feature grid-row__col-s">
                     <div class="feature__icon">
                         <div class="icon">*ICON*</div>
                     </div>
@@ -125,9 +135,9 @@
                     <div class="feature__text">Mauris convallis eros massa, vitae euismod arcu tempus ut. Quisque viverra iaculis.</div>
                 </div>
             </section>
-            <section class="t7-main__my-experiences row">
-                <div class="image-3 col-50"></div>
-                <div class="my-experiences col-50">
+            <section class="t7-main__my-experiences grid-row">
+                <div class="image-3 grid-row__col-m"></div>
+                <div class="my-experiences grid-row__col-m">
                     <div class="my-experiences__header">My Experiences</div>
                     <div class="my-experiences__text">Previous companies and my tasks</div>                    
                     <div class="my-experiences__task">
@@ -156,8 +166,8 @@
                     </div>
                 </div>
             </section>
-            <section class="t7-main__my-education row">
-                <div class="my-education col-50">
+            <section class="t7-main__my-education grid-row">
+                <div class="my-education grid-row__col-m">
                     <div class="my-education__header">My Education</div>
                     <div class="my-education__text">In cursur orci non ipsum gravida dignissim</div>                    
                     <div class="my-education__degree">
@@ -185,10 +195,10 @@
                         </div>
                     </div>
                 </div>
-                <div class="image-4 col-50"></div>
+                <div class="image-4 grid-row__col-m"></div>
             </section>
-            <section class="t7-main__next-part-header row">
-                <div class="feature col-100">
+            <section class="t7-main__next-part-header grid-row">
+                <div class="feature grid-row__col-l">
                     <div class="feature__icon">
                         <div class="icon">*ICON*</div>
                     </div>
@@ -196,8 +206,8 @@
                     <div class="feature__text">Curabitur at pulvinar ante. Duis dui urna, faucibus eget felis eu, iaculis congue sem.</div>
                 </div>
             </section>
-            <section class="t7-main__contacts row">
-                <div class="say-hello col-50">
+            <section class="t7-main__contacts grid-row">
+                <div class="say-hello grid-row__col-m">
                     <div class="say-hello__header">Say hello..</div>
                     <div class="say-hello__text">Integer ut consectetur est. In cursur orci non ipsum gravida dignissim.</div>
                     <input type="text" placeholder="Your Name" class="say-hello__input">
@@ -207,8 +217,8 @@
                         <button class="button">Send</button>
                     </div>
                 </div>
-                <div class="image-5 col-25"></div>
-                <div class="contact-info col-25">
+                <div class="image-5 grid-row__col-s"></div>
+                <div class="contact-info grid-row__col-s">
                     <div class="contact-info__adress">
                         <div class="contact-info__adress-header">Visit my office</div>
                         <div class="contact-info__text">456 New Street 22000, New York City, USA</div>
@@ -230,8 +240,8 @@
                     </div>
                 </div>
             </section>
-            <section class="t7-main__footer row">
-                <footer class="footer col-100">
+            <section class="t7-main__footer grid-row">
+                <footer class="footer grid-row__col-l">
                     <div class="footer__copyright-info"><span class="footer__text">Copyright &copy; 2016 Your Company | Design: </span><span class="footer__text orange">templatemo</span></div>
                     <div class="footer__social-links">
                         <div class="footer__social-icon">*ICON*</div>

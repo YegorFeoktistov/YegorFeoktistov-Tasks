@@ -1,19 +1,41 @@
-.row {
+.grid-row {
     display: flex;
+    flex-wrap: wrap;
     width: 100%;
 }
 
-.col-100 {
+.grid-row__col-l {
     width: 100%;
     height: 100%;
 }
 
-.col-50 {
+.grid-row__col-m {
     width: 50%;
     height: 100%;
 }
 
-.col-25 {
+@media ( max-width: 1200px ) {
+    .grid-row__col-m {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.grid-row__col-s {
     width: 25%;
     height: 100%;
+}
+
+@media ( max-width: 1200px ) {
+    .grid-row__col-s {
+        width: 50%;
+        height: 100%;
+    }
+}
+
+@media ( max-width: 720px ) {
+    .grid-row__col-s {
+        width: 100%;
+        height: 100%;
+    }
 }
