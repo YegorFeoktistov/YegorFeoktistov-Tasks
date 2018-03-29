@@ -1,0 +1,13 @@
+.image-4 {
+	height: 100%;
+    background: url("../images/3.jpg");
+    background-position: top;
+    background-size: cover;
+}
+
+@media ( max-width: 1200px ) {
+	.image-4 {
+		min-height: 300px;
+		order: -1;
+	}
+}

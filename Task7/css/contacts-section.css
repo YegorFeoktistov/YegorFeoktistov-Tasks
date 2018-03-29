@@ -1,0 +1,154 @@
+.say-hello {
+	background-color: #e9714c;
+	color: #fff;
+}
+
+.say-hello_flex-container-column {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.say-hello__container {
+	margin: 3%;
+}
+
+.say-hello__header {
+	margin-bottom: 30px;
+	font-family: 'Source Sans Pro Light', sans-serif;
+    font-size: 42px;
+}
+
+.say-hello__text {
+	margin-bottom: 55px;
+}
+
+.say-hello__input {
+	width: 100%;
+	height: 45px;
+	margin-bottom: 24px;
+	border-bottom: 1px solid #f89f65;
+}
+
+.say-hello__input:focus-within {
+	border-color: #e9714c;
+}
+
+.input {
+	box-sizing: border-box;
+	width: 100%;
+	height: 100%;
+	padding: 0 15px 0 15px;
+	border: none;
+	outline: none;
+	background: none;
+	font-family: 'Source Sans Pro Light', sans-serif;
+	text-decoration: none;
+	font-size: 20px;
+	color: #fff;
+}
+
+.input:hover {
+	transition: 0.3s;
+	background-color: rgba(0, 0, 0, 0.10);
+}
+
+.input:focus {
+	outline: 2px solid #f89f65;
+	transition-duration: 0s;
+	background-color: rgba(0, 0, 0, 0.10);
+}
+
+.input::placeholder {
+	color: #fff;
+	font-family: 'Source Sans Pro Light', sans-serif;
+	font-size: 20px;
+}
+
+.say-hello__textarea {
+	width: 100%;
+	height: 170px;
+	margin-bottom: 30px;
+	border-bottom: 1px solid #f89f65;
+}
+
+.say-hello__textarea:focus-within {
+	border-color: #e9714c;
+}
+
+.textarea {
+	box-sizing: border-box;
+	width: 100%;
+	height: 100%;
+	padding: 5px 15px 5px 15px;
+	outline: none;
+	resize: none;
+	border: none;
+	background: none;
+	font-family: 'Source Sans Pro Light', sans-serif;
+	text-decoration: none;
+	font-size: 20px;
+	color: #fff;
+}
+
+.textarea:hover {
+	transition: 0.3s;
+	background-color: rgba(0, 0, 0, 0.10);
+}
+
+.textarea:focus {
+	outline: 2px solid #f89f65;
+	transition-duration: 0s;
+	background-color: rgba(0, 0, 0, 0.10);
+}
+
+.textarea::placeholder {
+	color: #fff;
+	font-family: 'Source Sans Pro Light', sans-serif;
+	font-size: 20px;
+}
+
+.say-hello__button {
+	width: auto;
+    max-width: 300px;
+    height: 45px;
+	margin: 0 0 15px 15px;
+}
+
+.image-5 {
+	height: 100%;
+    background: url("../images/2.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+@media ( max-width: 1200px ) {
+	.image-5 {
+		
+	}
+}
+
+.contact-info {
+	background-color: #161616;
+	color: #858587;
+}
+
+.contact-info_flex-container-column {
+	display: flex;
+	flex-direction: column;
+}
+
+.contact-info__container {
+	margin: 10%;
+}
+
+.contact-info__address {
+	margin-bottom: 30px;
+}
+
+.contact-info__header {
+	margin-bottom: 16px;
+	font-family: 'Source Sans Pro Light', sans-serif;
+	font-size: 26px;
+	color: #fff;
+}

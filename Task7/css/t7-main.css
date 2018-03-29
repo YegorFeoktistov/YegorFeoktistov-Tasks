@@ -1,15 +1,21 @@
 html {
-    scroll-behavior: smooth;
-    word-wrap: break-word;
+/*    scroll-behavior: smooth;*/
 }
 
 html, body {
     height: 100%;
 }
 
+.t7-main {
+	font-family: 'Source Sans Pro Regular', sans-serif;
+    font-size: 16px;
+	word-wrap: break-word;
+}
+::selection {background:transparent; text-shadow:#000 0 0 2px;}
+
 .t7-main__wrapper {
     width: 100%;
-    height: 100%;  
+    height: 100%;
 }
 
 .t7-main__get-started {
@@ -20,16 +26,6 @@ html, body {
     .t7-main__get-started {
         height: auto;
     }
-}
-
-.t7-main_defaul-header-style {
-    font-family: 'Source Sans Pro Light', sans-serif;
-    font-size: 42px;
-}
-
-.t7-main_defaul-text-style {
-    font-family: 'Source Sans Pro Regular', sans-serif;
-    font-size: 16px;
 }
 
 .t7-main_display-flex {
@@ -46,4 +42,47 @@ html, body {
     .t7-main__description {
         height: auto;
     }
+}
+
+.t7-main__features {
+    height: 336px;
+}
+
+@media ( max-width: 1200px ) {
+    .t7-main__features {
+        height: auto;
+    }
+}
+
+.t7-main__my-experiences {
+	height: 386px;
+}
+
+@media ( max-width: 1200px ) {
+	.t7-main__my-experiences {
+		height: auto;
+	}
+}
+
+.t7-main__my-education {
+	height: 443px;
+}
+
+@media ( max-width: 1200px ) {
+	.t7-main__my-education {
+		height: auto;
+	}
+}
+
+.t7-main__next-part-header {
+	height: 480px;
+}
+
+@media ( max-width: 1200px ) {
+	.t7-main__next-part-header {
+		height: auto;
+	}
+}
+.t7-main__contacts {
+	height: 614px;
 }

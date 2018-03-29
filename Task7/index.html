@@ -1,14 +1,24 @@
+<!--
+	БЭМ Нэйминг:
+	"block-1" - название блока;
+	"block-1__element-1" - название элемента;
+	"block-1_modifier-1" - название модификатора;
+-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/grid.css">
     <link rel="stylesheet" href="css/t7-main.css">
     <link rel="stylesheet" href="css/get-started-section.css">
     <link rel="stylesheet" href="css/description-section.css">
+    <link rel="stylesheet" href="css/features-section.css">
+    <link rel="stylesheet" href="css/my-experiences-section.css">
+    <link rel="stylesheet" href="css/my-education-section.css">
+    <link rel="stylesheet" href="css/contacts-section.css">
     <title>Task 7</title>
 </head>
 <body>
@@ -36,11 +46,11 @@
 -->
             <section class="t7-main__get-started grid-row">
                 <div class="image-1 grid-row__col-m"></div>                
-                <div class="get-started t7-main_display-flex grid-row__col-m">
+                <div class="get-started get-started_flex-container-column grid-row__col-m">
                     <div class="get-started__container">
                         <div class="get-started__text-1">Welcome to my website</div>
-                        <div class="get-started__header t7-main_defaul-header-style">Hello, I am <span>Stimulus</span> currently based in New York city.</div>
-                        <div class="get-started__text-2 t7-main_defaul-text-style">Donec auctor arcu at efficitur lacinia. Praesent bibendum efficitur ipsum, et mattis tellus interdum in. Ut a dictum purus. Vestibulum nin pellentesque felis, sed dignissim urna. Vestibulum id accumsan quam.</div>
+                        <div class="get-started__header">Hello, I am <span class="get-started__name-bold">Stimulus</span> currently based in New York city.</div>
+                        <div class="get-started__text-2">Donec auctor arcu at efficitur lacinia. Praesent bibendum efficitur ipsum, et mattis tellus interdum in. Ut a dictum purus. Vestibulum nin pellentesque felis, sed dignissim urna. Vestibulum id accumsan quam.</div>
                         <div class="get-started__button">
                             <a href="#description-section">
                                 <button class="button button_black-style">
@@ -53,21 +63,21 @@
                     </div>                    
                 </div>
             </section>
-            <section id="description-section" class="t7-main__description grid-row">
-                <div class="description t7-main_display-flex grid-row__col-m">
+            <section class="t7-main__description grid-row" id="description-section">
+                <div class="description description_flex-container-column grid-row__col-m">
                     <div class="description__container">
-                        <div class="description__header t7-main_defaul-header-style">Donec auctor</div>
-                        <div class="description__text-1 t7-main_defaul-text-style">Sed vulputate vitae diam quis bibendum</div>
-                        <div class="description__text-2 t7-main_defaul-text-style">Phasellus vulputate tellus nec tortor varius elementum. Curabitur at pulvinar ante. Duis dui urna, faucibus eget felis eu, iaculis congue sem. Mauris convallis eros massa.
+                        <div class="description__header">Donec auctor</div>
+                        <div class="description__text-1">Sed vulputate vitae diam quis bibendum</div>
+                        <div class="description__text-2">Phasellus vulputate tellus nec tortor varius elementum. Curabitur at pulvinar ante. Duis dui urna, faucibus eget felis eu, iaculis congue sem. Mauris convallis eros massa.
                         </div>
-                        <div class="description__text-3 t7-main_defaul-text-style">Quisque viverra iaculis aliquam. Etiam volutpat, justo non aliquam bibendum, sem nibh mollis erat, quis porta odio odio at velit.</div>
+                        <div class="description__text-3">Quisque viverra iaculis aliquam. Etiam volutpat, justo non aliquam bibendum, sem nibh mollis erat, quis porta odio odio at velit.</div>
                     </div>                    
                 </div>
                 <div class="image-2 grid-row__col-s"></div>
-                <div class="my-skills t7-main_display-flex grid-row__col-s">
+                <div class="my-skills my-skills_flex-container-column grid-row__col-s">
                     <div class="my-skills__container">
-                        <div class="my-skills__header t7-main_defaul-header-style">My Skills</div>
-                        <div class="my-skills__text t7-main_defaul-text-style">Photoshop. HTML CSS JS. Web Design</div>
+                        <div class="my-skills__header">My Skills</div>
+                        <div class="my-skills__text">Photoshop. HTML CSS JS. Web Design</div>
                         <div class="my-skills__skill-block">
                             <div class="skill-block">
                                 <div class="skill-block__text-row">
@@ -76,7 +86,6 @@
                                 </div>                                
                                 <div class="skill-block__progress-bar">
                                     <div style="width: 90%;" class="skill-block__bar-complited"></div>
-                                    <div style="width: 10%;" class="skill-block__bar-empty"></div>
                                 </div>
                             </div>
                         </div>
@@ -88,7 +97,6 @@
                                 </div>               
                                 <div class="skill-block__progress-bar">
                                     <div style="width: 70%;" class="skill-block__bar-complited"></div>
-                                    <div style="width: 30%;" class="skill-block__bar-empty"></div>
                                 </div>
                             </div>
                         </div>
@@ -100,7 +108,6 @@
                                 </div>
                                 <div class="skill-block__progress-bar">
                                     <div style="width: 80%;" class="skill-block__bar-complited"></div>
-                                    <div style="width: 20%;" class="skill-block__bar-empty"></div>
                                 </div>
                             </div>
                         </div>
@@ -108,140 +115,165 @@
                 </div>
             </section>
             <section class="t7-main__features grid-row">
-                <div class="feature grid-row__col-s">
-                    <div class="feature__icon">
-                        <div class="icon">*ICON*</div>
+                <div class="feature feature_flex-container-column feature_yellow grid-row__col-s">
+                    <div class="feature__container">
+                        <div class="feature__icon">
+                            <div class="icon">*ICON*</div>
+                        </div>
+                        <div class="feature__header">Interface Design</div>
+                        <div class="feature__text">Phasellus vulputate tellus nec tortor varius elementum. Curabitur at pulvinar ante.</div>
                     </div>
-                    <div class="feature__header">Interface Design</div>
-                    <div class="feature__text">Phasellus vulputate tellus nec tortor varius elementum. Curabitur at pulvinar ante.</div>
                 </div>
-                <div class="feature grid-row__col-s">
-                    <div class="feature__icon">
-                        <div class="icon">*ICON*</div>
+                <div class="feature feature_flex-container-column feature_orange grid-row__col-s">
+                    <div class="feature__container">
+                        <div class="feature__icon">
+                            <div class="icon">*ICON*</div>
+                        </div>
+                        <div class="feature__header">Media Strategy</div>
+                        <div class="feature__text">Curabitur at pulvinar ante. Duis dui urna, faucibus eget felis eu, iaculis congue sem.</div>
                     </div>
-                    <div class="feature__header">Media Strategy</div>
-                    <div class="feature__text">Curabitur at pulvinar ante. Duis dui urna, faucibus eget felis eu, iaculis congue sem.</div>
                 </div>
-                <div class="feature grid-row__col-s">
-                    <div class="feature__icon">
-                        <div class="icon">*ICON*</div>
+                <div class="feature feature_flex-container-column feature_black grid-row__col-s">
+                    <div class="feature__container">
+                        <div class="feature__icon">
+                            <div class="icon">*ICON*</div>
+                        </div>
+                        <div class="feature__header">Mobile App</div>
+                        <div class="feature__text">Mauris convallis eros massa, vitae euismod arcu tempus ut. Quisque viverra iaculis.</div>
                     </div>
-                    <div class="feature__header">Mobile App</div>
-                    <div class="feature__text">Mauris convallis eros massa, vitae euismod arcu tempus ut. Quisque viverra iaculis.</div>
                 </div>
-                <div class="feature grid-row__col-s">
-                    <div class="feature__icon">
-                        <div class="icon">*ICON*</div>
+                <div class="feature feature_flex-container-column feature_white feature_grey-font grid-row__col-s">
+                    <div class="feature__container">
+                        <div class="feature__icon">
+                            <div class="icon">*ICON*</div>
+                        </div>
+                        <div class="feature__header">Coding</div>
+                        <div class="feature__text">Mauris convallis eros massa, vitae euismod arcu tempus ut. Quisque viverra iaculis.</div>
                     </div>
-                    <div class="feature__header">Coding</div>
-                    <div class="feature__text">Mauris convallis eros massa, vitae euismod arcu tempus ut. Quisque viverra iaculis.</div>
                 </div>
             </section>
             <section class="t7-main__my-experiences grid-row">
                 <div class="image-3 grid-row__col-m"></div>
-                <div class="my-experiences grid-row__col-m">
-                    <div class="my-experiences__header">My Experiences</div>
-                    <div class="my-experiences__text">Previous companies and my tasks</div>                    
-                    <div class="my-experiences__task">
-                        <div class="time-period">
-                            <div class="time-period__icon">
-                                <div class="icon">*ICON*</div>
-                            </div>
-                            <div class="time-period__container">
-                                <div class="time-period__name">Graphic Designer</div>
-                                <div class="time-period__period">2014 Jul - 2015 Sep</div>
-                                <div class="time-period__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="my-experiences__task">
-                        <div class="time-period">
-                            <div class="time-period__icon">
-                                <div class="icon">*ICON*</div>
-                            </div>
-                            <div class="time-period__container">
-                                <div class="time-period__name">Web Designer</div>
-                                <div class="time-period__period">2015 Oct - 2017 Jan</div>
-                                <div class="time-period__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
-                            </div>
-                        </div>
-                    </div>
+                <div class="characteristic characteristic_orange-theme characteristic_flex-container-column grid-row__col-m">
+					<div class="characteristic__container">
+						<div class="characteristic__header">My Experiences</div>
+                    	<div class="characteristic__text">Previous companies and my tasks</div>
+                    	<div class="characteristic__task">
+                    	    <div class="time-period time-period_flex-container-row">
+                    	        <div class="time-period__icon">
+                    	            <div class="icon">*ICON*</div>
+                    	        </div>
+                    	        <div class="time-period__container">
+                    	            <div class="time-period__name">Graphic Designer</div>
+                    	            <div class="time-period__period">2014 Jul - 2015 Sep</div>
+                    	            <div class="time-period__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
+                    	        </div>
+                    	    </div>
+                    	</div>
+                    	<div class="characteristic__task">
+                    	    <div class="time-period time-period_flex-container-row">
+                    	        <div class="time-period__icon">
+                    	            <div class="icon">*ICON*</div>
+                    	        </div>
+                    	        <div class="time-period__container">
+                    	            <div class="time-period__name">Web Designer</div>
+                    	            <div class="time-period__period">2015 Oct - 2017 Jan</div>
+                    	            <div class="time-period__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
+                    	        </div>
+                    	    </div>
+                    	</div>
+					</div>
                 </div>
             </section>
             <section class="t7-main__my-education grid-row">
-                <div class="my-education grid-row__col-m">
-                    <div class="my-education__header">My Education</div>
-                    <div class="my-education__text">In cursur orci non ipsum gravida dignissim</div>                    
-                    <div class="my-education__degree">
-                        <div class="time-period">
-                            <div class="time-period__icon">
-                                <div class="icon">*ICON*</div>
-                            </div>
-                            <div class="time-period__container">
-                                <div class="time-period__name">Master in Design</div>
-                                <div class="time-period__period">2012 Jan - 2014 May</div>
-                                <div class="time-period__text">Etiam iaculis elit in mauris ullamcorper auctor. Proin a sapien id orci ullamcorper dignissim eu in neque.</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="my-education__degree">
-                        <div class="time-period">
-                            <div class="time-period__icon">
-                                <div class="icon">*ICON*</div>
-                            </div>
-                            <div class="time-period__container">
-                                <div class="time-period__name">Bachelor of Arts</div>
-                                <div class="time-period__period">2008 May - 2011 Dec</div>
-                                <div class="time-period__text">Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</div>
-                            </div>
-                        </div>
-                    </div>
+				<div class="characteristic characteristic_yellow-theme characteristic_flex-container-column grid-row__col-m">
+					<div class="characteristic__container">
+						<div class="characteristic__header">My Education</div>
+                    	<div class="characteristic__text">In cursur orci non ipsum gravida dignissim</div>
+                    	<div class="characteristic__task">
+                    	    <div class="time-period time-period_flex-container-row">
+                    	        <div class="time-period__icon">
+                    	            <div class="icon">*ICON*</div>
+                    	        </div>
+                    	        <div class="time-period__container">
+                    	            <div class="time-period__name">Master in Design</div>
+                    	            <div class="time-period__period">2012 Jan - 2014 May</div>
+                    	            <div class="time-period__text">Etiam iaculis elit in mauris ullamcorper auctor. Proin a sapien id orci ullamcorper dignissim eu in neque.</div>
+                    	        </div>
+                    	    </div>
+                    	</div>
+                    	<div class="characteristic__task">
+                    	    <div class="time-period time-period_flex-container-row">
+                    	        <div class="time-period__icon">
+                    	            <div class="icon">*ICON*</div>
+                    	        </div>
+                    	        <div class="time-period__container">
+                    	            <div class="time-period__name">Bachelor of Arts</div>
+                    	            <div class="time-period__period">2008 May - 2011 Dec</div>
+                    	            <div class="time-period__text">Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</div>
+                    	        </div>
+                    	    </div>
+                    	</div>
+					</div>
                 </div>
                 <div class="image-4 grid-row__col-m"></div>
             </section>
             <section class="t7-main__next-part-header grid-row">
-                <div class="feature grid-row__col-l">
-                    <div class="feature__icon">
-                        <div class="icon">*ICON*</div>
+            	<div class="feature feature_flex-container-column feature_next-part-theme grid-row__col-l">
+                    <div class="feature__container">
+                        <div class="feature__icon">
+                            <div class="icon">*ICON*</div>
+                        </div>
+                        <div class="feature__header feature__header_next-part-theme">Proin lobortis eu diam et facilisis. Fusce nisi nibh, molestie in vestibulum quis, auctor et orci.</div>
+                        <div class="feature__text feature__text_next-part-theme">Curabitur at pulvinar ante. Duis dui urna, faucibus eget felis eu, iaculis congue sem.</div>
                     </div>
-                    <div class="feature__header">Proin lobortis eu diam et facilisis. Fusce nisi nibh, molestie in vestibulum quis, auctor et orci.</div>
-                    <div class="feature__text">Curabitur at pulvinar ante. Duis dui urna, faucibus eget felis eu, iaculis congue sem.</div>
                 </div>
             </section>
             <section class="t7-main__contacts grid-row">
-                <div class="say-hello grid-row__col-m">
-                    <div class="say-hello__header">Say hello..</div>
-                    <div class="say-hello__text">Integer ut consectetur est. In cursur orci non ipsum gravida dignissim.</div>
-                    <input type="text" placeholder="Your Name" class="say-hello__input">
-                    <input type="text" placeholder="Your Email" class="say-hello__input">
-                    <input type="text" placeholder="Write your message..." class="say-hello__input">
-                    <div class="say-hello__button">
-                        <button class="button">Send</button>
-                    </div>
+                <div class="say-hello say-hello_flex-container-column grid-row__col-m">
+					<div class="say-hello__container">
+						<div class="say-hello__header">Say hello..</div>
+                    	<div class="say-hello__text">Integer ut consectetur est. In cursur orci non ipsum gravida dignissim.</div>
+                    	<div class="say-hello__input">
+							<input class="input" name="name" type="text" placeholder="Your Name">
+                    	</div>
+                    	<div class="say-hello__input">
+                    		<input class="input" name="email" type="email" placeholder="Your Email">
+                    	</div>
+                    	<div class="say-hello__textarea">
+                    		<textarea class="textarea" name="" id="" placeholder="Write your message..."></textarea>
+                    	</div>
+                    	<div class="say-hello__button">
+                    	    <button class="button button_white-style">Send</button>
+                    	</div>
+					</div>
                 </div>
                 <div class="image-5 grid-row__col-s"></div>
-                <div class="contact-info grid-row__col-s">
-                    <div class="contact-info__adress">
-                        <div class="contact-info__adress-header">Visit my office</div>
-                        <div class="contact-info__text">456 New Street 22000, New York City, USA</div>
-                    </div>
-                    <div class="contact-info__contact">
-                        <div class="contact-info__contact-header">Contact.</div>
-                        <div class="contact-info__phone-number">
-                            <div class="icon">*ICON*</div>
-                            <div class="contact-info__text">01-0110-0220</div>
-                        </div>
-                        <div class="contact-info__email">
-                            <div class="icon">*ICON*</div>
-                            <div class="contact-info__text">hello@company.co</div>
-                        </div>
-                        <div class="contact-info__website">
-                            <div class="icon">*ICON*</div>
-                            <div class="contact-info__text">company.co</div>
-                        </div>
-                    </div>
+                <div class="contact-info contact-info_flex-container-column grid-row__col-s">
+					<div class="contact-info__container">
+						<div class="contact-info__address">
+                    	    <div class="contact-info__header">Visit my office</div>
+                    	    <div class="contact-info__text">456 New Street 22000, New York City, USA</div>
+                    	</div>
+                    	<div class="contact-info__contact">
+                    	    <div class="contact-info__header">Contact.</div>
+                    	    <div class="contact-info__phone-number">
+                    	        <div class="icon">*ICON*</div>
+                    	        <div class="contact-info__text">01-0110-0220</div>
+                    	    </div>
+                    	    <div class="contact-info__email">
+                    	        <div class="icon">*ICON*</div>
+                    	        <div class="contact-info__text">hello@company.co</div>
+                    	    </div>
+                    	    <div class="contact-info__website">
+                    	        <div class="icon">*ICON*</div>
+                    	        <div class="contact-info__text">company.co</div>
+                    	    </div>
+                    	</div>
+					</div>                    
                 </div>
             </section>
+<!--
             <section class="t7-main__footer grid-row">
                 <footer class="footer grid-row__col-l">
                     <div class="footer__copyright-info"><span class="footer__text">Copyright &copy; 2016 Your Company | Design: </span><span class="footer__text orange">templatemo</span></div>
@@ -254,69 +286,6 @@
                     </div>
                 </footer>
             </section>
-<!--
-            <div class="t7-main__item-01">
-                
-            </div>
-            <div class="t7-main__item-02">
-                
-            </div>
--->
-<!--
-            <div class="t7-main__item-03">
-                
-            </div>
-            <div class="t7-main__item-04">
-                
-            </div>
--->
-<!--
-            <div class="t7-main__item-05">
-                
-            </div>
--->
-<!--
-            <div class="t7-main__item-06">
-                
-            </div>
-            <div class="t7-main__item-07">
-                
-            </div>
--->
-<!--
-            <div class="t7-main__item-08">
-                
-            </div>
--->
-<!--
-            <div class="t7-main__item-09">
-                
-            </div>
--->
-<!--
-            <div class="t7-main__item-10">
-                
-            </div>
--->
-<!--
-            <div class="t7-main__item-11">
-                
-            </div>
--->
-<!--
-            <div class="t7-main__item-12">
-                
-            </div>
--->
-<!--
-            <div class="t7-main__item-13">
-                
-            </div>
--->
-<!--
-            <div class="t7-main__footer">
-                
-            </div>
 -->
         </div>
     </div>
