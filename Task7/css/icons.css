@@ -2,6 +2,10 @@
 	font-family: FontAwesome;
 }
 
+.icon_small {
+	padding: 20px;
+}
+
 .icon_computer::before {
 	content: "\f108";
 }
