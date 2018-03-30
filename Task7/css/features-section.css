@@ -35,16 +35,16 @@
     color: #91948d;
 }
 
-.feature__container {
+.feature__content {
     display: flex;
-    margin: 5%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 5%;
 }
 
 @media ( max-width: 1200px ) {
-	.feature__container {
+	.feature__content {
 		margin: 12% 5% 12% 5%;
 	}
 }

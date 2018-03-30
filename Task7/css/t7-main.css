@@ -1,5 +1,5 @@
 html {
-/*    scroll-behavior: smooth;*/
+    scroll-behavior: smooth;
 }
 
 html, body {
@@ -34,12 +34,12 @@ html, body {
     justify-content: center;
 }
 
-.t7-main__description {
+.t7-main__about-me {
     height: 344px;
 }
 
 @media ( max-width: 1200px ) {
-    .t7-main__description {
+    .t7-main__about-me {
         height: auto;
     }
 }
@@ -64,12 +64,12 @@ html, body {
 	}
 }
 
-.t7-main__my-education {
+.t7-main__testimonial {
 	height: 443px;
 }
 
 @media ( max-width: 1200px ) {
-	.t7-main__my-education {
+	.t7-main__testimonial {
 		height: auto;
 	}
 }
@@ -83,6 +83,23 @@ html, body {
 		height: auto;
 	}
 }
+
 .t7-main__contacts {
 	height: 614px;
+}
+
+@media ( max-width: 1200px ) {
+	.t7-main__contacts {
+		height: auto;
+	}
+}
+
+.t7-main__footer {
+	height: 378px;
+}
+
+@media ( max-width: 1200px ) {
+		.t7-main__footer {
+		height: auto;
+	}
 }

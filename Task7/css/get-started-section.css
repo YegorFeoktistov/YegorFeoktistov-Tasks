@@ -8,10 +8,30 @@
 @media ( max-width: 1200px ) {
     .image-1 {
         height: 60px;
-        background: url("../images/5.jpg");
-        background-position: center;
-        background-size: cover;
+		background: linear-gradient(rgba(163, 163, 163, 0.65), rgba(163, 163, 163,.65)), url("../images/5.jpg");
+    	background-position: center;
+    	background-size: cover;
     }
+}
+
+.image-1__logo {
+	height: auto;
+	padding: 32px 0 0 172px;
+}
+
+@media ( max-width: 1200px ) {
+	.image-1__logo {
+		height: 100%;
+		padding: 0;
+		text-align: center;
+		line-height: 60px;
+	}
+}
+
+.logo__text {
+	font-family: 'Source Sans Pro Bold', sans-serif;
+	font-size: 25px;
+	text-shadow: 1px 1px 0 #fff;
 }
 
 .get-started {
@@ -22,10 +42,53 @@
 .get-started_flex-container-column {
 	display: flex;
     flex-direction: column;
-    justify-content: center;
 }
 
-.get-started__container {
+.get-started__menu {
+	height: 98px;
+	padding: 0 5% 0 5%;
+}
+
+.menu {
+	height: 100%;
+	font-family: 'Source Sans Pro SemiBold', sans-serif;
+	text-transform: uppercase;
+	font-size: 15px;	
+}
+
+.link {
+	text-decoration: none;
+	color: inherit;
+	transition: 0.3s;
+}
+
+.link_grey {
+	color: #6f7374;
+}
+
+.link_grey:hover {
+	color: #ddae66;
+}
+
+.link_yellow {
+	color: #ddae66;
+}
+
+.link_yellow:hover {
+	color: #6f7374;
+}
+
+.menu_flex-container-row {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.get-started__content {
+	display: flex;
+	flex: 1 0 auto;
+	flex-direction: column;
+	justify-content: center;
     margin: 5%;
 }
 
@@ -44,7 +107,7 @@
     color: black;
 }
 
-.get-started__name-bold {
+.get-started__name_bold {
 	font-family: 'Source Sans Pro Regular', sans-serif;
 }
 
@@ -64,18 +127,22 @@
     height: 100%;
 	background: none;
 	border: none;
+	outline: none;
 }
 
 .button_black-style {
     border: 3px solid black;
-    border-radius: 50px;    
+    border-radius: 50px;
+	font-family: 'Source Sans Pro Bold', sans-serif;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
 }
 
 .button_white-style {
-	background-color: #fff;
 	border-radius: 50px;
 	font-family: 'Source Sans Pro Regular', sans-serif;
 	font-size: 20px;
+	background-color: #fff;
 }
 
 .button_white-style:hover {
@@ -87,17 +154,4 @@
     background-color: black;
     color: #f0e2d7;
     transition: .3s;
-}
-
-.button__container {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-}
-
-.button__text {
-    font-family: 'Source Sans Pro Bold', sans-serif;
-    letter-spacing: 0.1em;
-    color: inherit;
-    text-transform: uppercase;
 }

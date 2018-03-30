@@ -1,0 +1,36 @@
+.footer {
+	color: #91948d;
+}
+
+.footer_flex-container-column {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.footer__content {
+	margin: 0;
+}
+
+@media (max-width: 1200px) {
+	.footer__content {
+		margin: 10%;
+	}
+}
+
+.footer__author_orange {
+	color: #f6c394;
+}
+
+.footer__copyright-info {
+	margin-bottom: 55px;
+	text-align: center;
+}
+
+.footer__social-links_flex-container-row {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+}
