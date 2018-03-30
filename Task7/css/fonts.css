@@ -32,3 +32,8 @@
 	font-weight: 900;
 	font-style: normal;
 }
+
+@font-face {
+	font-family: 'FontAwesome';
+	src: url(../fonts/FontAwesome/fontawesome-webfont.woff) format('woff');
+}

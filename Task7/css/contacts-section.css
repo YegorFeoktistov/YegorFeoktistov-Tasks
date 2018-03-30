@@ -189,9 +189,14 @@
 	}
 }
 
+.contact-info__icon {
+	margin-right: 10px;
+}
+
 @media (max-width: 320px) {
-	.contact-info__icon {
+	.contact-info__icon {		
 		width: 100%;
-		margin-bottom: 5px;
+		margin-right: 0;
+		margin-bottom: 5px;		
 	}
 }

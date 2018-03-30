@@ -59,14 +59,19 @@
 
 .time-period__content {
 	display: flex;
-	flex-wrap: wrap;
-	margin-left: 3%;
+	flex-wrap: wrap;	
+}
+
+.time-period__icon {
+	margin-right: 3%;
+	font-size: 40px;
 }
 
 @media (max-width: 320px) {
 	.time-period__icon {
 		width: 100%;
-		margin-bottom: 20px;
+		margin-right: 0;
+		margin-bottom: 20px;		
 	}
 }
 
