@@ -19,6 +19,12 @@
 	}
 }
 
+@media (max-width:450px) {
+	.about-me__content {
+		margin: 30px;
+	}
+}
+
 .about-me__header {
     margin-bottom: 22px;
 	font-family: 'Source Sans Pro Light', sans-serif;

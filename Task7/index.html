@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="css/grid.css">
     <link rel="stylesheet" href="css/t7-main.css">
     <link rel="stylesheet" href="css/get-started-section.css">
+    <link rel="stylesheet" href="css/toggle-menu.css">
     <link rel="stylesheet" href="css/about-me-section.css">
     <link rel="stylesheet" href="css/features-section.css">
     <link rel="stylesheet" href="css/my-experiences-section.css">
@@ -36,13 +37,19 @@
                 </div>
                 <div class="get-started get-started_flex-container-column grid-row__col-m">
 					<div class="get-started__menu">
-                        <nav class="menu menu_flex-container-row">
-                            <div class="menu__item"><a href="#" class="link link_grey">Home</a></div>
-                            <div class="menu__item"><a href="#about-me-section" class="link link_grey">About me</a></div>
-                            <div class="menu__item"><a href="#experiences-section" class="link link_grey">Experiences</a></div>
-                            <div class="menu__item"><a href="#testimonial-section" class="link link_grey">Testimonial</a></div>
-                            <div class="menu__item"><a href="#contacts-section" class="link link_grey">Contact</a></div>
-                        </nav>
+						<div class="menu">
+							<input class="menu__toggle-checkbox" id="toggle" type="checkbox">
+							<label class="menu__toggle-label" for="toggle">
+								<span class="menu__toggle-icon"></span>
+							</label>
+                        	<nav class="menu__items-container menu__items-container_flex-container-row">
+                        	    <div class="menu__item"><a href="#" class="link link_grey link_toggle-menu">Home</a></div>
+                        	    <div class="menu__item"><a href="#about-me-section" class="link link_grey link_toggle-menu">About me</a></div>
+                        	    <div class="menu__item"><a href="#experiences-section" class="link link_grey link_toggle-menu">Experiences</a></div>
+                        	    <div class="menu__item"><a href="#testimonial-section" class="link link_grey link_toggle-menu">Testimonial</a></div>
+                        	    <div class="menu__item"><a href="#contacts-section" class="link link_grey link_toggle-menu">Contact</a></div>
+                        	</nav>
+						</div>						
                     </div>
                     <div class="get-started__content">
                         <div class="get-started__text-1">Welcome to my website</div>

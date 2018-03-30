@@ -33,6 +33,12 @@
 	margin: 5%;
 }
 
+@media (max-width:450px) {
+	.characteristic__content {
+		margin: 24px;
+	}
+}
+
 .characteristic__header {
 	margin-bottom: 24px;
 	font-family: 'Source Sans Pro Light', sans-serif;

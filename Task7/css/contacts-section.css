@@ -13,6 +13,12 @@
 	margin: 3%;
 }
 
+@media (max-width: 450px) {
+	.say-hello__content {
+		margin: 20px;
+	}
+}
+
 .say-hello__header {
 	margin-bottom: 30px;
 	font-family: 'Source Sans Pro Light', sans-serif;
