@@ -12,8 +12,8 @@ html, body {
 	word-wrap: break-word;
 }
 ::selection {
-	background:transparent;
-	text-shadow:#000 0 0 2px;
+	background: transparent;
+	text-shadow: #000 0 0 2px;
 }
 
 .t7-main__wrapper {

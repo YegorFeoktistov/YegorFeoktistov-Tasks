@@ -73,7 +73,7 @@
 	background-color: rgba(0, 0, 0, 0.10);
 }
 
-.input::placeholder {
+.input::-webkit-input-placeholder { /*wrong color in Edge*/
 	color: #fff;
 	font-family: 'Source Sans Pro Light', sans-serif;
 	font-size: 20px;
@@ -117,7 +117,7 @@
 	background-color: rgba(0, 0, 0, 0.10);
 }
 
-.textarea::placeholder {
+.textarea::-webkit-input-placeholder { /*wrong color in Edge*/
 	color: #fff;
 	font-family: 'Source Sans Pro Light', sans-serif;
 	font-size: 20px;
